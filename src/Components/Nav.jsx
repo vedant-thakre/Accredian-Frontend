@@ -4,13 +4,11 @@ import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
-import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import { Link, useNavigate } from 'react-router-dom';
 import { useApp } from '../Context/AppContext';
 import toast from 'react-hot-toast';
 import axios from 'axios';
-import { useEffect } from 'react';
 
 const Nav =() => {
     const { isAuthenticated, setIsAuthenticated, setUser, setloading } = useApp();

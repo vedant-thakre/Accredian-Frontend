@@ -6,7 +6,7 @@ import Card from '@mui/joy/Card';
 import CardContent from '@mui/joy/CardContent';
 import Typography from '@mui/joy/Typography';
 import { Grid } from '@mui/material';
-import { LuBookX, LuTwitter } from "react-icons/lu";
+import { LuTwitter } from "react-icons/lu";
 import { GrFormNext } from "react-icons/gr";
 import { MdContentCopy } from "react-icons/md";
 import axios from 'axios';
